@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mondrian Project</title>
+  <style>
+
+    body {
+      display:flex;
+      height: 100vh;
+      justify-content: center;
+      align-items: center;
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      background-color: #232629;
+      height: 746px;
+      width: 748px;
+      display: grid;
+      grid-template-columns: 320px 198px 153px 50px;
+      grid-template-rows: 414px 130px 155px 20px;
+      gap: 9px;
+    }
+
+
+
+    .first_square {
+      background-color: #E72F24;
+      grid-area: 1 / 1 / 1 / 1;
+    }
+
+    .second_square {
+      background-color: #F0F1EC;
+      grid-area: 2 / 1 / 4 / 1;
+      padding: 9px;
+
+    }
+
+    .third_square {
+      background-color: #F0F1EC;
+      grid-area: 2 / 2 / 4 / 4;
+    }
+
+    .fourth_square {
+      background-color: #004592;
+      grid-area: 2 / 4 / 2 / 5;
+      display: flex;
+      border-bottom: 10px solid black;
+    }
+
+    .fifth_square {
+      background-color: #F9D01E;
+      grid-area: 4 / 2 / 4 / 2;
+    }
+
+    .six_square {
+      background-color: #232629;
+      grid-area: 4 / 3 / 4 /3;
+    }
+
+    .seven_square {
+      background-color: #F0F1EC;
+      grid-area: 4 / 1 / 4 / 1;
+    }
+
+    .eight_square {
+      background-color: #F0F1EC;
+      grid-area: 1 / 2 / 2 / 5;
+    }
+
+    .nine_square {
+      background-color: #F0F1EC;
+      grid-area: 3 / 4 / 5 / 5;
+    }
+    /* 
+    Write your CSS here 
+    Gap Colour: #000
+    White: #F0F1EC
+    Red: #E72F24
+    Black: #232629
+    Blue: #004592
+    Yellow: #F9D01E
+
+    For dimensions, see dimensions.png image.
+    HINT: Remember you can't change the properties of grid lines.
+    But grid lines are transparent!
+    */
+  </style>
+</head>
+
+<body>
+  <div class="main_container">
+    <div class="container">
+      <div class="first_square"></div>
+      <div class="second_square"></div>
+      <div class="third_square"></div>
+      <div class="fourth_square"></div>
+      <div class="fifth_square"></div>
+      <div class="six_square"></div>
+      <div class="seven_square"></div>
+      <div class="eight_square"></div>
+      <div class="nine_square"></div>
+    </div>
+  </div>
+  
+  <!-- Write your HTML here -->
+</body>
+
+</html>
